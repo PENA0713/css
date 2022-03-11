@@ -15,7 +15,7 @@ border-radius: 50%; !important
 	--mainColor5: #f4dbfd; /* 공지, 인기글 hover */
 	--mainColor3: #ede1f8; /* 공지, 인기글 */
 	--mainColor2: #77777722; /* 트게더 메뉴, 게시글 hover */
-	--logoURL: url(https://panels-images.twitch.tv/panel-731065729-image-d25d362a-f181-4772-8b20-70773dc03951);
+	--logoURL: url(https://ifh.cc/g/K3NUHn.png);
 	--logoWidth: 500px;	 /* 로고 너비 */
 	--before: "하카츄! "; /* 접속자 수 앞 문구 */
 	--after: "만볼트!";  /* 접속자 수 뒤 문구 */
@@ -61,9 +61,9 @@ header {
 header .row>div:nth-child(1)>a {
 	display: block;
 	width: var(--logoWidth);
-	height: 70px;
+	height: 85px;
 	background: var(--logoURL) no-repeat;
-	background-size: auto 70px;
+	background-size: auto 85px;
 }
 
 /* 기본 트게더 로고 제거 ( 없으면 주석처리 하세요 ) */
