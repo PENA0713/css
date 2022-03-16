@@ -99,11 +99,13 @@ header #header-bar {
 }
 
 header #header-bar>.row {
-	border: 2px solid #69afff !important;
+	border: 2px dotted #69afff !important;
 	background: #d2e7ff;
+    border-radius: 6px 6px 6px 6px !important;
 }
 
 /* 전광판 */ header #header-bar #header-top-notice strong.notice-badge,
+
 /* 트게더 알림 */ header #header-bar #header-menu-right #userDropdown #notification-badge {
 	background: #fbc0f6 !important;
 }
